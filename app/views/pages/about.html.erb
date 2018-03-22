@@ -2,86 +2,13 @@
 <html>
 <head>
 <style>
-a.one:link {color:white;text-decoration: none;}
-a.one:visited {color:white;}
-a.one:hover {color:#b30000;}
-a.two:link {color:black;}
-a.two:visited {color:black;}
-a.two:hover {color:#b30000;}
 
-.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-#first-section {
-  border: 5px;    
-  margin: 5% 45% 5% 45%;
-}
-
-.second-section {
-  color:white;
-  border: 15px;
-  margin-top: 80px;
-  margin-left: 60px;
-  margin-right: 60px;
-  padding: 20px;
-}
-
-div.container {
-  width: 100%;
-  border: 1px solid gray;
-}
-
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
-
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
-
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
 </style>
 </head>
 <body class="sansserif">
 
 <div class="container">
 
-<header>
-    <scan><a href="home.html" class="one" target="_blank">
-      HOME</a>
-    </scan>  
-    <scan class="second-section">
-      WHAT I DO
-    </scan>  
-    <scan class="one" target="_blank"><%= link_to "BLOG", about_path %>
-    </scan>  
-    <scan class="second-section">
-      CONNECT
-    </scan>
-</header>
-  
 <nav>
   <ul>
     <li><%= link_to "Home", root_path %></li>
@@ -96,7 +23,7 @@ article {
   <p>Test</p>
 </article>
 </div>
-<footer>2018 Joan Currie</footer>
+
 
 
 
