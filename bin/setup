@@ -35,4 +35,6 @@ chdir APP_ROOT do
 
   puts "\n== Restarting application server =="
   system! 'bin/rails restart'
+  
+  RAILS_ENV=test bin/rails db:environment:set
 end

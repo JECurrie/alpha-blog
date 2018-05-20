@@ -1,9 +1,13 @@
 source 'https://rubygems.org'
 
-git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
-  "https://github.com/#{repo_name}.git"
-end
+
+
+## ##gem 'rails-controller-testing' 
+## ##git_source(:github) do |repo_name|
+## ##  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+## ##  "https://github.com/#{repo_name}.git"
+## ##end
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -66,3 +70,5 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end  
+
+#gem 'minitest', '5.10.3' 
