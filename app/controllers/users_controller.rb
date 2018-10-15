@@ -17,7 +17,7 @@ class UsersController < ApplicationController
     
     if @user.save
       session[:user_id] = @user.id
-      flash[:success] = "Welcome to the alpha blog #{@user.username}"
+      flash[:success] = "Welcome to the blog #{@user.username}"
       redirect_to user_path(@user)
     else
       render 'new'
@@ -70,4 +70,4 @@ class UsersController < ApplicationController
         redirect_to root_path
       end  
     end  
-  end
+end

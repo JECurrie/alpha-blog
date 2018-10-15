@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
+##minitest (= 5.10.3)
 
-
-## ##gem 'rails-controller-testing' 
+gem 'rails-controller-testing' 
 ## ##git_source(:github) do |repo_name|
 ## ##  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
 ## ##  "https://github.com/#{repo_name}.git"
@@ -68,7 +68,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
+##gem 'rails_12factor'
 end  
 
 #gem 'minitest', '5.10.3' 
