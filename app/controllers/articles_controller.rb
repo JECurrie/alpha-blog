@@ -12,7 +12,6 @@ class ArticlesController < ApplicationController
   end 
   
   def edit
-    @article = Article.find(params[:id])
   end  
   
   def create 
@@ -37,7 +36,6 @@ class ArticlesController < ApplicationController
   end  
 
   def show
-    @article = Article.find(params[:id])
   end  
   
   def destroy
